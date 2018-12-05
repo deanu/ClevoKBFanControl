@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44AD5199213ACF61006D8346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AD5198213ACF61006D8346 /* AppDelegate.swift */; };
+		44AD519B213ACF61006D8346 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AD519A213ACF61006D8346 /* ViewController.swift */; };
+		44AD519D213ACF61006D8346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44AD519C213ACF61006D8346 /* Assets.xcassets */; };
+		44AD51A0213ACF61006D8346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44AD519E213ACF61006D8346 /* Main.storyboard */; };
+		44AD51AC213ACF61006D8346 /* ClevoKBFanControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AD51AB213ACF61006D8346 /* ClevoKBFanControlTests.swift */; };
+		44AD51B7213ACF61006D8346 /* ClevoKBFanControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AD51B6213ACF61006D8346 /* ClevoKBFanControlUITests.swift */; };
+		44BB8334213BC7EE0009CBAB /* ClevoControl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44BB8333213BC7EE0009CBAB /* ClevoControl.a */; };
+		44BB8338213BC82D0009CBAB /* ClevoCtrlWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 44BB8337213BC82D0009CBAB /* ClevoCtrlWrapper.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44AD51A8213ACF61006D8346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AD518D213ACF61006D8346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AD5194213ACF61006D8346;
+			remoteInfo = ClevoKBFanControl;
+		};
+		44AD51B3213ACF61006D8346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44AD518D213ACF61006D8346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44AD5194213ACF61006D8346;
+			remoteInfo = ClevoKBFanControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44AD5195213ACF61006D8346 /* ClevoKBFanControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClevoKBFanControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AD5198213ACF61006D8346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44AD519A213ACF61006D8346 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		44AD519C213ACF61006D8346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44AD519F213ACF61006D8346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44AD51A1213ACF61006D8346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AD51A2213ACF61006D8346 /* ClevoKBFanControl.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClevoKBFanControl.entitlements; sourceTree = "<group>"; };
+		44AD51A7213ACF61006D8346 /* ClevoKBFanControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClevoKBFanControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AD51AB213ACF61006D8346 /* ClevoKBFanControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClevoKBFanControlTests.swift; sourceTree = "<group>"; };
+		44AD51AD213ACF61006D8346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44AD51B2213ACF61006D8346 /* ClevoKBFanControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClevoKBFanControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AD51B6213ACF61006D8346 /* ClevoKBFanControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClevoKBFanControlUITests.swift; sourceTree = "<group>"; };
+		44AD51B8213ACF61006D8346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44BB8333213BC7EE0009CBAB /* ClevoControl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ClevoControl.a; path = Src/ClevoControl.a; sourceTree = "<group>"; };
+		44BB8335213BC7FD0009CBAB /* ECCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECCtrl.h; path = Src/ECCtrl.h; sourceTree = SOURCE_ROOT; };
+		44BB8336213BC82C0009CBAB /* ClevoKBFanControl-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClevoKBFanControl-Bridging-Header.h"; sourceTree = "<group>"; };
+		44BB8337213BC82D0009CBAB /* ClevoCtrlWrapper.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ClevoCtrlWrapper.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44AD5192213ACF61006D8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44BB8334213BC7EE0009CBAB /* ClevoControl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51A4213ACF61006D8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51AF213ACF61006D8346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44AD518C213ACF61006D8346 = {
+			isa = PBXGroup;
+			children = (
+				44AD5197213ACF61006D8346 /* ClevoKBFanControl */,
+				44AD51AA213ACF61006D8346 /* ClevoKBFanControlTests */,
+				44AD51B5213ACF61006D8346 /* ClevoKBFanControlUITests */,
+				44AD5196213ACF61006D8346 /* Products */,
+				44BB8332213BC7ED0009CBAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44AD5196213ACF61006D8346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44AD5195213ACF61006D8346 /* ClevoKBFanControl.app */,
+				44AD51A7213ACF61006D8346 /* ClevoKBFanControlTests.xctest */,
+				44AD51B2213ACF61006D8346 /* ClevoKBFanControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44AD5197213ACF61006D8346 /* ClevoKBFanControl */ = {
+			isa = PBXGroup;
+			children = (
+				44BB8335213BC7FD0009CBAB /* ECCtrl.h */,
+				44AD5198213ACF61006D8346 /* AppDelegate.swift */,
+				44AD519A213ACF61006D8346 /* ViewController.swift */,
+				44AD519C213ACF61006D8346 /* Assets.xcassets */,
+				44AD519E213ACF61006D8346 /* Main.storyboard */,
+				44AD51A1213ACF61006D8346 /* Info.plist */,
+				44AD51A2213ACF61006D8346 /* ClevoKBFanControl.entitlements */,
+				44BB8337213BC82D0009CBAB /* ClevoCtrlWrapper.cpp */,
+				44BB8336213BC82C0009CBAB /* ClevoKBFanControl-Bridging-Header.h */,
+			);
+			path = ClevoKBFanControl;
+			sourceTree = "<group>";
+		};
+		44AD51AA213ACF61006D8346 /* ClevoKBFanControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				44AD51AB213ACF61006D8346 /* ClevoKBFanControlTests.swift */,
+				44AD51AD213ACF61006D8346 /* Info.plist */,
+			);
+			path = ClevoKBFanControlTests;
+			sourceTree = "<group>";
+		};
+		44AD51B5213ACF61006D8346 /* ClevoKBFanControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44AD51B6213ACF61006D8346 /* ClevoKBFanControlUITests.swift */,
+				44AD51B8213ACF61006D8346 /* Info.plist */,
+			);
+			path = ClevoKBFanControlUITests;
+			sourceTree = "<group>";
+		};
+		44BB8332213BC7ED0009CBAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44BB8333213BC7EE0009CBAB /* ClevoControl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44AD5194213ACF61006D8346 /* ClevoKBFanControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AD51BB213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControl" */;
+			buildPhases = (
+				44AD5191213ACF61006D8346 /* Sources */,
+				44AD5192213ACF61006D8346 /* Frameworks */,
+				44AD5193213ACF61006D8346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClevoKBFanControl;
+			productName = ClevoKBFanControl;
+			productReference = 44AD5195213ACF61006D8346 /* ClevoKBFanControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44AD51A6213ACF61006D8346 /* ClevoKBFanControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AD51BE213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControlTests" */;
+			buildPhases = (
+				44AD51A3213ACF61006D8346 /* Sources */,
+				44AD51A4213ACF61006D8346 /* Frameworks */,
+				44AD51A5213ACF61006D8346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AD51A9213ACF61006D8346 /* PBXTargetDependency */,
+			);
+			name = ClevoKBFanControlTests;
+			productName = ClevoKBFanControlTests;
+			productReference = 44AD51A7213ACF61006D8346 /* ClevoKBFanControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44AD51B1213ACF61006D8346 /* ClevoKBFanControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44AD51C1213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControlUITests" */;
+			buildPhases = (
+				44AD51AE213ACF61006D8346 /* Sources */,
+				44AD51AF213ACF61006D8346 /* Frameworks */,
+				44AD51B0213ACF61006D8346 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44AD51B4213ACF61006D8346 /* PBXTargetDependency */,
+			);
+			name = ClevoKBFanControlUITests;
+			productName = ClevoKBFanControlUITests;
+			productReference = 44AD51B2213ACF61006D8346 /* ClevoKBFanControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44AD518D213ACF61006D8346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = deanu;
+				TargetAttributes = {
+					44AD5194213ACF61006D8346 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					44AD51A6213ACF61006D8346 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44AD5194213ACF61006D8346;
+					};
+					44AD51B1213ACF61006D8346 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 44AD5194213ACF61006D8346;
+					};
+				};
+			};
+			buildConfigurationList = 44AD5190213ACF61006D8346 /* Build configuration list for PBXProject "ClevoKBFanControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44AD518C213ACF61006D8346;
+			productRefGroup = 44AD5196213ACF61006D8346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44AD5194213ACF61006D8346 /* ClevoKBFanControl */,
+				44AD51A6213ACF61006D8346 /* ClevoKBFanControlTests */,
+				44AD51B1213ACF61006D8346 /* ClevoKBFanControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44AD5193213ACF61006D8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AD519D213ACF61006D8346 /* Assets.xcassets in Resources */,
+				44AD51A0213ACF61006D8346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51A5213ACF61006D8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51B0213ACF61006D8346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44AD5191213ACF61006D8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AD519B213ACF61006D8346 /* ViewController.swift in Sources */,
+				44AD5199213ACF61006D8346 /* AppDelegate.swift in Sources */,
+				44BB8338213BC82D0009CBAB /* ClevoCtrlWrapper.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51A3213ACF61006D8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AD51AC213ACF61006D8346 /* ClevoKBFanControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44AD51AE213ACF61006D8346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AD51B7213ACF61006D8346 /* ClevoKBFanControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44AD51A9213ACF61006D8346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AD5194213ACF61006D8346 /* ClevoKBFanControl */;
+			targetProxy = 44AD51A8213ACF61006D8346 /* PBXContainerItemProxy */;
+		};
+		44AD51B4213ACF61006D8346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44AD5194213ACF61006D8346 /* ClevoKBFanControl */;
+			targetProxy = 44AD51B3213ACF61006D8346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44AD519E213ACF61006D8346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44AD519F213ACF61006D8346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44AD51B9213ACF61006D8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=0",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44AD51BA213ACF61006D8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		44AD51BC213ACF61006D8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LX2S4XPKS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClevoKBFanControl",
+				);
+				INFOPLIST_FILE = ClevoKBFanControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Src",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClevoKBFanControl/ClevoKBFanControl-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		44AD51BD213ACF61006D8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = LX2S4XPKS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ClevoKBFanControl",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				INFOPLIST_FILE = ClevoKBFanControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Src",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ClevoKBFanControl/ClevoKBFanControl-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		44AD51BF213ACF61006D8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClevoKBFanControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClevoKBFanControl.app/Contents/MacOS/ClevoKBFanControl";
+			};
+			name = Debug;
+		};
+		44AD51C0213ACF61006D8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClevoKBFanControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClevoKBFanControl.app/Contents/MacOS/ClevoKBFanControl";
+			};
+			name = Release;
+		};
+		44AD51C2213ACF61006D8346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClevoKBFanControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ClevoKBFanControl;
+			};
+			name = Debug;
+		};
+		44AD51C3213ACF61006D8346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ClevoKBFanControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = deanu.ClevoKBFanControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ClevoKBFanControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44AD5190213ACF61006D8346 /* Build configuration list for PBXProject "ClevoKBFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AD51B9213ACF61006D8346 /* Debug */,
+				44AD51BA213ACF61006D8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AD51BB213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AD51BC213ACF61006D8346 /* Debug */,
+				44AD51BD213ACF61006D8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AD51BE213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AD51BF213ACF61006D8346 /* Debug */,
+				44AD51C0213ACF61006D8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44AD51C1213ACF61006D8346 /* Build configuration list for PBXNativeTarget "ClevoKBFanControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44AD51C2213ACF61006D8346 /* Debug */,
+				44AD51C3213ACF61006D8346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44AD518D213ACF61006D8346 /* Project object */;
+}
